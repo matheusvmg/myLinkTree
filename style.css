@@ -1,71 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    overflow-x: hidden;
-    max-width: 100%;
-    background-color: #282a36;
-    font-family: 'Source Code Pro', monospace;
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  background-color: #282a36;
+  font-family: "Source Code Pro", monospace;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.wrapper{
-    margin: 20px 0px;
+.wrapper {
+  margin: 20px 0px;
 }
 
-.wrapper img{
-    height: 110px;
-    width: 100px;
-    border-radius: 50%;
+.wrapper img {
+  height: 110px;
+  width: 100px;
+  border-radius: 50%;
 }
 
-span{
-    color: #adb5bd;
-    font-size: 18px;
+span {
+  color: #adb5bd;
+  font-size: 18px;
 }
 
-.wrapper2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
-.box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 85vw;
-    height: 10vh;
-    background-color: #f8f8f2;
-    margin: 10px 0px;
-    text-decoration: none;
-    font-size: 14px;
-    color: #2b2d42;
-    border-radius: 5px;
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  height: 10vh;
+  background-color: #f8f8f2;
+  margin: 10px 0px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #2b2d42;
+  border-radius: 5px;
 }
 
-@media (min-width: 650px){
-    .box{
-        width: 70vw;
-    }
+@media (min-width: 650px) {
+  .box {
+    width: 70vw;
+  }
 }
 
-@media (min-width: 768px){
-    .box{
-        width: 50vw;
-    }
+@media (min-width: 768px) {
+  .box {
+    width: 50vw;
+  }
 }
